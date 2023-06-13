@@ -48,7 +48,7 @@ int main(int argc, char *argv[])  {
 	char const *rom_file = argv[1];
 	
 	
-	LEDchip led_chip(canvas, "/home/pi/Desktop/LED_CHIP/ROMS/Tank.ch8");
+	LEDchip led_chip(canvas, "/home/pi/LED_CHIP/ROMS/Tank.ch8");
 	cout << 2;
 	led_chip.dev = dev;
 	cout << 3;
