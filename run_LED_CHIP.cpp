@@ -31,7 +31,7 @@ int main(int argc, char *argv[])  {
     
     
     RGBMatrix::Options defaults;
-  defaults.hardware_mapping = "adafruit-hat";  // or e.g. "adafruit-hat"
+  defaults.hardware_mapping = "regular";  // or e.g. "adafruit-hat"
   defaults.rows = 32;
   defaults.cols = 64;
   defaults.chain_length = 1;
